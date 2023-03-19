@@ -1,0 +1,52 @@
+.Card {
+  width: 345px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+.Card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+
+  .FavoriteIcon {
+    font-size: 2.5rem;
+    cursor: pointer;
+
+    &.active {
+      color: orange;
+    }
+
+    &:hover {
+      color: orange;
+    }
+  }
+}
+
+.Card-info {
+  flex: 1;
+}
+
+.Card-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.Card-date {
+  margin-top: 3px;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.Card-photo {
+  height: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Card-description {
+  padding: 20px 15px;
+  font-size: 1.4rem;
+}

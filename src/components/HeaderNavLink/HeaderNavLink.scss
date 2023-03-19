@@ -1,0 +1,11 @@
+.HeaderNavLink {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+
+  &.active {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

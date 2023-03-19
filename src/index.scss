@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.wrapper {
+  padding: 25px 0;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1.6rem;
+}
