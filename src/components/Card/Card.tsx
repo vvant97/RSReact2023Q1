@@ -17,21 +17,24 @@ class Card extends Component<CardProps> {
     const styles = { backgroundImage: `url("${image}")` };
 
     return (
-      <div className="Card">
+      <li className="Card">
         <div className="Card-header">
           <Avatar />
+
           <div className="Card-info">
             <p className="Card-title">{title}</p>
             <p className="Card-date">{date}</p>
           </div>
+
           <FavoriteIcon
             className={`FavoriteIcon ${favorite ? 'active' : ''}`}
+            data-testid="favorite-icon"
           />
         </div>
 
         <div className="Card-photo" style={styles} />
         <p className="Card-description">{content}</p>
-      </div>
+      </li>
     );
   }
 }
